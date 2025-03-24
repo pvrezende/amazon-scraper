@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura viewport para responsividade -->
+    <title>Amazon Scraper</title> <!-- Título da página -->
+    <link rel="stylesheet" href="style.css"> <!-- Importa o arquivo CSS -->
+</head>
+<body>
+    <div class="container"> <!-- Container principal -->
+        <header> <!-- Cabeçalho -->
+            <h1>Amazon Product Scraper</h1> <!-- Título principal -->
+            <p>Obtenha produtos da primeira página de resultados da Amazon</p> <!-- Subtítulo -->
+        </header>
+
+        <div class="search-box"> <!-- Área de busca -->
+            <input type="text" id="keyword" placeholder="Digite uma palavra-chave (ex: notebook, smartphone)">
+            <!-- Campo de input para a palavra-chave -->
+            <button id="scrape-btn"> <!-- Botão de ação -->
+                <span id="btn-text">Buscar Produtos</span> <!-- Texto do botão -->
+                <span id="spinner" class="hidden"></span> <!-- Spinner de carregamento (inicialmente oculto) -->
+            </button>
+        </div>
+
+        <div id="status-area"> <!-- Área de status -->
+            <div id="loading" class="hidden"> <!-- Indicador de carregamento -->
+                <div class="loader"></div> <!-- Animação de loading -->
+                <p>Buscando produtos na Amazon...</p> <!-- Mensagem de carregamento -->
+            </div>
+            <div id="error" class="hidden"></div> <!-- Área de mensagens de erro -->
+        </div>
+
+        <div id="results-container"> <!-- Container dos resultados -->
+            <div id="results"></div> <!-- Onde os produtos serão renderizados -->
+        </div>
+
+        <footer> <!-- Rodapé -->
+            <p>Este projeto é apenas para fins educacionais.</p> <!-- Nota legal -->
+        </footer>
+    </div>
+
+    <script src="script.js"></script> <!-- Importa o arquivo JavaScript -->
+</body>
+</html>
