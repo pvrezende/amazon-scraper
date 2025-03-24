@@ -12,7 +12,7 @@ Conexão com a internet
 
 Instalação
 Clone o repositório:
-git clone https://github.com/seu-usuario/amazon-scraper.git
+git clone https://github.com/pvrezende/amazon-scraper.git
 
 bash
 cd amazon-scraper/backend
