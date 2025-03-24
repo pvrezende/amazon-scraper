@@ -46,7 +46,10 @@ Os seletores HTML podem precisar de atualização se a Amazon mudar sua estrutur
 Apenas para fins educacionais
 
 📄 Licença
-MIT
-
+Desenvolvido por Paulo Rezende como parte de teste do processo seletivo para estágio de Desenvolvedor Full Stack.
 Nota: Este projeto foi desenvolvido para fins educacionais. Respeite os termos de serviço da Amazon ao utilizá-lo.
+Contato:
+📧 pvrezende2023@gmail.com
+🔗 LinkedIn : https://www.linkedin.com/in/pvrezende/
+💻 GitHub : https://github.com/pvrezende/
 
